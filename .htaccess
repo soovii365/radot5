@@ -1,5 +1,5 @@
 Redirect .htaccess
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^oldsite.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.oldsite.com [NC]
+RewriteCond %{HTTP_HOST} ^https://creators.calawyersforthearts.org/ [NC,OR]
+RewriteCond %{HTTP_HOST} ^https://creators.calawyersforthearts.org/ [NC]
 RewriteRule ^(.*)$ https://unipasby.ac.id/slice-box/$1 [L,R=301,NC]
